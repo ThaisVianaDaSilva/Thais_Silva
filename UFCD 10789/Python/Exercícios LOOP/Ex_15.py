@@ -7,7 +7,7 @@ for l in range(0, 256, dispor):
     resp = str(input("\nInsira 'c' para continuar ou 's' para sair: ")).lower()
     
     while resp != 's' and resp != 'c':
-        print("Entrada inválida.")
+        print("Resposta inválida.")
         resp = str(input("\nInsira 'c' para continuar ou 's' para sair: ")).lower()
     
     if resp == 's':
