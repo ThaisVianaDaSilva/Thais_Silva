@@ -7,4 +7,4 @@ while n < 10:
 
 media = soma / 10
     
-print(f"\n{media}")
+print(f"\nA média é {media}")
