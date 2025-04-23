@@ -1,20 +1,20 @@
-#import <stdio.h>
+#include <stdio.h>
 
 int main(){
-    // Fazer um algoritmo que leia o saldo inicial de cliente do banco e leia tambÈm um cheque que entrou
-    float saldo_i;
-    float cheque;
+    // Fazer um algoritmo que leia o saldo inicial de cliente do banco e leia tamb√©m um cheque que entrou
+    float saldo_i = 0;
+    float cheque = 0;
 
     printf("Insira o seu saldo e o valor do cheque: ");
     scanf("%f %f", &saldo_i, &cheque);
 
-    // ANALISE se o cheque poder· ser descontado ou n„o, j· que este cliente n„o possui limite.
+    // ANALISE se o cheque poder√° ser descontado ou n√£o, j√° que este cliente n√£o possui limite.
     if(cheque > saldo_i){
-        // Se o cheque n„o poder· ser descontado, mostre essa informaÁ„o
-        printf("\nO seu saldo È insuficiente");
+        // Se o cheque n√£o poder√° ser descontado, mostre essa informa√ß√£o
+        printf("\nO seu saldo √© insuficiente");
     }
     else{
-        // Caso contr·rio, desconte o cheque e informe o saldo.
-        printf("\nO cheque foi descontado.\nO seu salso final È %.2f.", saldo_i - cheque);
+        // Caso contr√°rio, desconte o cheque e informe o saldo.
+        printf("\nO cheque foi descontado.\nO seu salso final √© %.2f.", saldo_i - cheque);
     }
 }

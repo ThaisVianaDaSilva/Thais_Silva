@@ -1,12 +1,12 @@
-#import <stdio.h>
+#include <stdio.h>
 
 int main(){
-    //Crie 2 variáveis (num1 e num2)
-    float num1;
-    float num2;
+    //Crie 2 variÃ¡veis (num1 e num2)
+    float num1 = 0;
+    float num2 = 0;
 
     //Leia o valor para cada um deles.
-    printf("Insira 2 números: ");
+    printf("Insira 2 nÃºmeros: ");
     scanf("%f %f", &num1, &num2);
 
     //Mostre os valores de forma crescente e decrescente

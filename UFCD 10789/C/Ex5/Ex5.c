@@ -1,19 +1,23 @@
-#import <stdio.h>
+#include <stdio.h>
 
 int main(){
-    //Ler 3 valores INTEIROS para as variáveis Num1, Num2, Num3
-    int num1;
-    int num2;
-    int num3;
+    //Ler 3 valores INTEIROS para as variï¿½veis Num1, Num2, Num3
+    int num1 = 0;
+    int num2 = 0;
+    int num3 = 0;
 
-    printf("Insira 3 números inteiros: ");
+    int maior = 0;
+    int menor = 0;
+    int meio = 0;
+
+    printf("Insira 3 nÃºmeros inteiros: ");
     scanf("%d %d %d", &num1, &num2, &num3);
 
     //Apresentar os valores dispostos em ordem crescente e decrescente.
-    int maior = num1;
-    int menor = num1;
-    int meio = num1;
-
+    maior = num1;
+    menor = num1;
+    meio = num1;
+ 
     if (num2 > maior){
         maior = num2;
     }

@@ -1,18 +1,21 @@
-#import <stdio.h>
+#include <stdio.h>
 
 int main(){
     //Fazer um programa que analise 3 valores inteiros
-    //(através das variáveis num1, num2 e num3)
-    int num1;
-    int num2;
-    int num3;
+    //(atravÃ©s das variÃ¡veis num1, num2 e num3)
+    int num1 = 0;
+    int num2 = 0;
+    int num3 = 0;
 
-    printf("Insira 3 números inteiros: ");
+    int maior = 0;
+    int menor = 0;
+
+    printf("Insira 3 nÃºmeros inteiros: ");
     scanf("%d %d %d", &num1, &num2, &num3);
 
     //informa qual o maior e qual o menor deles.
-    int maior =  num1;
-    int menor =  num1;
+    maior = num1;
+    menor = num1;
 
     if (num2 > maior){
         maior = num2;
